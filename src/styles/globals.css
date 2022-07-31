@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --background: #f2f3f5;
+  --gray-line: #dcdde0;
+  --text: #666;
+  --text-highlight: #b3b9ff;
+  --title: #2e385d;
+  --red: #e83f5b;
+  --green: #4cd62b;
+  --blue: #5965e0;
+  --blue-dark: #4953b8;
+  --blue-twitter: #2aa9e0;
+}
+
+@media (max-width: 1080px) {
+  html {
+      fonst-size: 90.75%;
+  }
+}
+@media (max-width: 720px) {
+  html {
+      fonst-size: 87.5%;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+}
+
+
+html, body, #root {
+ 
+ 
+}
+
+
+
+*, button, input {
+  border: 0;
+  outline: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+input {
+padding-left: 5px;
+margin: 5px;
+border-radius: 5px;
+height: 35px;
+
+}
+
+select {
+padding-left: 5px;
+margin: 5px;
+border-radius: 5px;
+height: 35px;
+}
+option{
+padding-left: 5px;
+margin: 5px;
+border-radius: 5px;
+height: 35px;
+}
+
+button{
+padding: 0px 5px;
+margin: 5px;
+border-radius: 6px;
+height: 35px;
+font-family: Arial;
+}
