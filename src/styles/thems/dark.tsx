@@ -1,11 +1,9 @@
 export const dark = {
-  tile: "dark",
+  title: "dark",
   colors: {
-    primary: "#1B1F38",
-    secondary: "#252A48",
-    tertiary: "#313862",
-
-    background: "#f2f3f5",
+    primary: "#090909",
+    secondary: "#292929",
+    tertiary: "#474747",
 
     white: "#FFF",
     black: "#000",
@@ -14,5 +12,7 @@ export const dark = {
     success: "#4E41F0",
     info: "#F7931B",
     warning: "#E44C4E",
+
+    typography: "#c2c2c2",
   },
 };

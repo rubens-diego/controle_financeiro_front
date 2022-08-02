@@ -1,11 +1,9 @@
 export const ligth = {
-  tile: "ligth",
+  title: "ligth",
   colors: {
     primary: "#DCDCDC",
     secondary: "#FFFFFF",
     tertiary: "#F5F5F5",
-
-    background: "#f2f3f5",
 
     white: "#000",
     black: "#FFF",
@@ -14,5 +12,7 @@ export const ligth = {
     success: "#03BB85",
     info: "#3B5998",
     warning: "#FF6961",
+
+    typography: "#c2c2c2",
   },
 };

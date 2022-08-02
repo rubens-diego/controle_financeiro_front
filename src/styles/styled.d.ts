@@ -3,24 +3,24 @@ import 'styled-components'
 declare module 'styled-components' {
 
     export interface DefaoutTheme {
-      
-        tile: string ;
-colors: {
-    primary: string ;
-    secundary: string;
-    teetiary: string ;
 
-    background: string;
+        title: string;
+        colors: {
+            primary: string;
+            secundary: string;
+            tertiary: string;
 
-    white: string;
-    black : string;
-    gray: string ;
+            white: string;
+            black: string;
+            gray: string;
 
-    success: string ;
-    info: string ;
-    warning: string;
+            success: string;
+            info: string;
+            warning: string;
 
-},
+            typography: string;
+
+        },
 
 
     }
